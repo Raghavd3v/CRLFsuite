@@ -36,3 +36,7 @@ Using POST method:
 ```
 $ crlfsuite -i targets.txt -m POST -d "key=val&newkey=newval"
 ```
+
+## License
+
+<a href="https://github.com/Nefcore/CRLFsuite/blob/main/LICENSE">MIT LICENSE</a>
