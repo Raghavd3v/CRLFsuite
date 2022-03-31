@@ -1,7 +1,0 @@
-language: python
-os:
-  - linux
-rvm:
-  - 3.6
-install:
-  - python3 setup.py install
