@@ -1,21 +1,46 @@
 <p align="center"><img src="https://github.com/Nefcore/CRLFsuite/blob/main/static/crlfsuite_logo.png" height="200"/></p>
 <h2 align="center">CRLFsuite</h2>
 
-CRLFsuite is a fast tool specially designed to scan `CRLF injection`. CRLFsuite supports `single URL`, `multiple URLs`, `cookies`, `GET,POST methods`.
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+[![GitHub release](https://img.shields.io/github/release/Nefcore/CRLFsuite)](https://GitHub.com/Nefcore/CRLFsuite/releases/)
+[![GitHub forks](https://badgen.net/github/forks/Nefcore/CRLFsuite/)](https://GitHub.com/Nefcore/CRLFsuite/network/)
+[![GitHub contributors](https://img.shields.io/github/contributors/Nefcore/CRLFsuite)](https://GitHub.com/Nefcore/badges/graphs/contributors/)
+
+CRLFsuite is a fast tool specially designed to scan `CRLF injection`.
 
 ## Installation
 
-```
+```ruby
 $ git clone https://github.com/Nefcore/CRLFsuite.git
 $ cd CRLFsuite
 $ sudo python3 setup.py install
 $ crlfsuite -h
 ```
+
+## Features
+
+:heavy_check_mark: Single URL scanning
+
+:heavy_check_mark: Multiple URL scanning
+
+:heavy_check_mark: Stdin supported
+
+:heavy_check_mark: GET & POST method supported
+
+:heavy_check_mark: Concurrency
+
+:heavy_check_mark: Best Payloads list
+
+:heavy_check_mark: Headers supported
+
+:heavy_check_mark: Fast and efficient scanning with negligible false-positive
+
 ## Usage
 
 Single URL scanning:
 
-```
+```python
 $ crlfsuite -u "http://testphp.vulnweb.com"
 ```
 
@@ -25,15 +50,21 @@ Multiple URLs scanning:
 $ crlfsuite -i targets.txt
 ```
 
+from stdin:
+
+```bash
+$ subfinder -d google.com -silent | httpx -silent | crlfsuite
+```
+
 Specifying cookies:
 
-```
+```python
 $ crlfsuite -u "http://testphp.vulnweb.com" --cookies "key=val; newkey=newval"
 ```
 
 Using POST method:
 
-```
+```python
 $ crlfsuite -i targets.txt -m POST -d "key=val&newkey=newval"
 ```
 
