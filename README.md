@@ -9,7 +9,7 @@
 
 CRLFsuite is a fast tool specially designed to scan `CRLF injection`.
 
-## Installation
+## ⬇️ Installation
 
 ```ruby
 $ git clone https://github.com/Nefcore/CRLFsuite.git
@@ -18,7 +18,7 @@ $ sudo python3 setup.py install
 $ crlfsuite -h
 ```
 
-## Features
+## ⚙️ Features
 
 :heavy_check_mark: Single URL scanning
 
@@ -36,7 +36,7 @@ $ crlfsuite -h
 
 :heavy_check_mark: Fast and efficient scanning with negligible false-positive
 
-## Usage
+## 📈 Usage
 
 Single URL scanning:
 
@@ -56,7 +56,7 @@ from stdin:
 $ subfinder -d google.com -silent | httpx -silent | crlfsuite
 ```
 
-Specifying cookies:
+Specifying cookies 🍪:
 
 ```python
 $ crlfsuite -u "http://testphp.vulnweb.com" --cookies "key=val; newkey=newval"
@@ -68,6 +68,12 @@ Using POST method:
 $ crlfsuite -i targets.txt -m POST -d "key=val&newkey=newval"
 ```
 
-## License
+## 🔑 License
 
 <a href="https://github.com/Nefcore/CRLFsuite/blob/main/LICENSE">MIT LICENSE</a>
+
+## 🐞 Bug report
+
+You're facing some errors or issues with this tool, you can open a issue here:
+
+👉 <a href="https://github.com/Nefcore/CRLFsuite/issues">Open a issue</a>
