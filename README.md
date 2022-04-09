@@ -78,6 +78,6 @@ $ crlfsuite -i targets.txt -m POST -d "key=val&newkey=newval"
 
 ## 🐞 Bug report
 
-You're facing some errors or issues with this tool, you can open a issue here:
+If You're facing some errors or issues with this tool, you can open a issue here:
 
 👉 <a href="https://github.com/Nefcore/CRLFsuite/issues">Open a issue</a>
