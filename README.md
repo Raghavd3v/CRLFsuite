@@ -57,7 +57,7 @@ $ crlfsuite -i targets.txt
 from stdin:
 
 ```bash
-$ subfinder -d google.com -silent | httpx -silent | crlfsuite
+$ subfinder -d google.com -silent | httpx -silent | crlfsuite -s
 ```
 
 Specifying cookies 🍪:
