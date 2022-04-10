@@ -4,7 +4,6 @@ import argparse
 from crlfsuite.utils.utils import get_user_agent, parse_cookies, parse_post_data
 from crlfsuite.core.logger import banner
 
-print(banner)
 parser = argparse.ArgumentParser()
 required_grp = parser.add_argument_group('Main options') 
 required_grp.add_argument('-u', '--url', dest='url', help='Specify the target URL (Example: -u https://google.com)')
@@ -20,6 +19,7 @@ request_grp.add_argument('-c','--cookies', help='Specify cookies if required (Ex
 request_grp.add_argument('-v','--verify', help='Verify SSL cert, Default is false', default=False, action='store_true')
 other_grp = parser.add_argument_group('Other options')
 other_grp.add_argument('-t', '--threads', dest='threads', help='Number of concurrent threads, default is 50.',default=50, type=int)
+other_grp.add_argument('-sL', '--silent', help='Skip banner and args info (direct output).', action="store_true")
 other_grp.add_argument('-sP', '--show-payloads', help='Show all the available CRLF payloads', action='store_true')
 
 args = parser.parse_args()
@@ -35,7 +35,11 @@ output_file = args.output
 verify = args.verify
 threads = args.threads
 std = args.stdin
+silent = args.silent
 
+if not silent:
+    print(banner)
+    
 read_urls = ""
 
 if urls:
