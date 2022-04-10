@@ -8,7 +8,7 @@ def read(fname):
 
 setup(
     name = "CRLFsuite",
-    version = "1.3.0",
+    version = "1.4.0",
     author = "HS Devansh Raghav",
     license = "MIT",
     keywords = ["CRLFsuite", "Bug Bounty", "pentesting", "security", "hacking"],
