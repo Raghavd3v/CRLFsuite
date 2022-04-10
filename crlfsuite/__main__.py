@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from crlfsuite.core.cli import url, threads, urls, method, std, cookies, data, user_agent, timeout, verify, read_urls, output_file, s_payloads
+from crlfsuite.core.cli import url, threads, urls, silent, method, std, cookies, data, user_agent, timeout, verify, read_urls, output_file, s_payloads
 from crlfsuite.core.crlfscanner import crlfscanner
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from crlfsuite.utils.utils import build_url
@@ -13,10 +13,11 @@ from datetime import datetime
 now = datetime.now()
 dt_string = now.strftime("%d-%m-%Y %H:%M")
 
-args_info(url, urls, std, output_file, method, data, cookies, timeout, user_agent["User-Agent"], verify, threads)
-logger.info('CRLFsuite v1.0 (%sFast CRLF Scanner%s)' % (green,reset))
-logger.warn('Use with caution. You are responsible for your actions')
-logger.warn('Developers assume no liability and are not responsible for any misuse or damage.')
+if not silent:
+    args_info(url, urls, std, output_file, method, data, cookies, timeout, user_agent["User-Agent"], verify, threads)
+    logger.info('CRLFsuite v1.0 (%sFast CRLF Scanner%s)' % (green,reset))
+    logger.warn('Use with caution. You are responsible for your actions')
+    logger.warn('Developers assume no liability and are not responsible for any misuse or damage.')
 
 if s_payloads:
     show_payloads_log()
