@@ -15,7 +15,7 @@ dt_string = now.strftime("%d-%m-%Y %H:%M")
 
 if not silent:
     args_info(url, urls, std, output_file, method, data, cookies, timeout, user_agent["User-Agent"], verify, threads)
-    logger.info('CRLFsuite v1.0 (%sFast CRLF Scanner%s)' % (green,reset))
+    logger.info('CRLFsuite v1.4.0 (%sFast CRLF Scanner%s)' % (green,reset))
     logger.warn('Use with caution. You are responsible for your actions')
     logger.warn('Developers assume no liability and are not responsible for any misuse or damage.')
 
