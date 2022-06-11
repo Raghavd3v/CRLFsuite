@@ -9,7 +9,6 @@
 
 CRLFsuite is a fast tool specially designed to scan `CRLF injection`.
 
-<p align="center"><kbd><img src="https://github.com/Nefcore/CRLFsuite/blob/main/static/CRLFsuite.png" height="350"/></kbd></p>
 
 <hr>
 
