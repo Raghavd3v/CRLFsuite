@@ -2,6 +2,7 @@
 <h2 align="center">CRLFsuite - CRLF injection scanner</h2>
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![GitHub release](https://img.shields.io/github/release/Nefcore/CRLFsuite)](https://GitHub.com/Nefcore/CRLFsuite/releases/)
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 [![GitHub forks](https://badgen.net/github/forks/Nefcore/CRLFsuite/)](https://GitHub.com/Nefcore/CRLFsuite/network/)
 [![GitHub contributors](https://img.shields.io/github/contributors/Nefcore/CRLFsuite)](https://GitHub.com/Nefcore/badges/graphs/contributors/)
