@@ -1,0 +1,956 @@
+{
+	"360 Web Application Firewall (360)" : {
+		"code" : "493",
+		"page" : "/wzws-waf-cgi/",
+		"headers" : "X-Powered-By-360wzb",
+		"cookie" : ""
+	},
+	"aeSecure" : {
+		"code" : "",
+		"page" : "aesecure_denied.png",
+		"headers" : "aeSecure-code",
+		"cookie" : ""
+	},
+	"Airlock (Phion/Ergon)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "AL[_-]?(SESS|LB)",
+		"cookie" : ""
+	},
+	"Anquanbao Web Application Firewall (Anquanbao)" : {
+		"code" : "405",
+		"page" : "/aqb_cc/error/|hidden_intercept_time",
+		"headers" : "X-Powered-By-Anquanbao",
+		"cookie" : ""
+	},
+	"Armor Protection (Armor Defense)" : {
+		"code" : "",
+		"page" : "This request has been blocked by website protection from Armor",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Application Security Manager (F5 Networks)" : {
+		"code" : "",
+		"page" : "The requested URL was rejected\\. Please consult with your administrator\\.",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Amazon Web Services Web Application Firewall (Amazon)" : {
+		"code" : "403",
+		"page" : "",
+		"headers" : "\\bAWS",
+		"cookie" : ""
+	},
+	"Yunjiasu Web Application Firewall (Baidu)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "yunjiasu-nginx",
+		"cookie" : ""
+	},
+	"Barracuda Web Application Firewall (Barracuda Networks)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "barra_counter_session=|(|\\b)barracuda_",
+		"cookie" : ""
+	},
+	"BIG-IP Application Security Manager (F5 Networks)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "BigIP|F5\\Z|\\bTS[0-9a-f]+=|X-WA-Info:|X-Cnection:",
+		"cookie" : ""
+	},
+	"BinarySEC Web Application Firewall (BinarySEC)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "binarysec",
+		"cookie" : ""
+	},
+	"BlockDoS" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "BlockDos\\.net",
+		"cookie" : ""
+	},
+	"ChinaCache (ChinaCache Networks)" : {
+		"code" : "400",
+		"page" : "",
+		"headers" : "Powered-By-ChinaCache",
+		"cookie" : ""
+	},
+	"Cisco ACE XML Gateway (Cisco Systems)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "ACE XML Gateway",
+		"cookie" : ""
+	},
+	"Cloudbric Web Application Firewall (Cloudbric)" : {
+		"code" : "",
+		"page" : "Cloudbric|Malicious Code Detected",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"CloudFlare Web Application Firewall (CloudFlare)" : {
+		"code" : "",
+		"page" : "Attention Required! \\| Cloudflare|CloudFlare Ray ID:|var CloudFlare=|CLOUDFLARE_ERROR_500S_BOX",
+		"headers" : "cloudflare|__cfduid=|cf-ray",
+		"cookie" : ""
+	},
+	"CloudFront (Amazon)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "Error from cloudfront",
+		"cookie" : ""
+	},
+	"Comodo Web Application Firewall (Comodo)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "Protected by COMODO WAF",
+		"cookie" : ""
+	},
+	"CrawlProtect (Jean-Denis Brun)" : {
+		"code" : "",
+		"page" : "This site is protected by CrawlProtect",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"IBM WebSphere DataPower (IBM)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "X-Backside-Transport.*?(OK|FAIL)",
+		"cookie" : ""
+	},
+	"Deny All Web Application Firewall (DenyAll)" : {
+		"code" : "",
+		"page" : "Condition Intercepted",
+		"headers" : "sessioncookie",
+		"cookie" : ""
+	},
+	"Distil Web Application Firewall Security (Distil Networks)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "x-distil-cs",
+		"cookie" : ""
+	},
+	"DOSarrest (DOSarrest Internet Security)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "DOSarrest|X-DIS-Request-ID",
+		"cookie" : "" 
+	},
+	"dotDefender (Applicure Technologies)" : {
+		"code" : "",
+		"page" : "dotDefender Blocked Your Request|<meta name=\\.description\\. content=\\.Applicure is the leading provider of web application security|Please contact the site administrator, and provide the following Reference ID:EdgeCast Web Application Firewall (Verizon)",
+		"headers" : "X-dotDefender-denied",
+		"cookie" : ""
+	},
+	"EdgeCast Web Application Firewall (Verizon)" : {
+		"code" : "400",
+		"page" : "",
+		"headers" : "SERVER.*?ECDF",
+		"cookie" : ""
+	},
+	"ExpressionEngine (EllisLab)" : {
+		"code" : "",
+		"page" : "Invalid (GET|POST) Data",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"FortiWeb Web Application Firewall (Fortinet)" : {
+		"code" : "",
+		"page" : "\\.fgd_icon|\\.blocked|\\.authenticate",
+		"headers" : "FORTIWAFSID=|cookiesession1=",
+		"cookie" : ""
+	},
+	"Hyperguard Web Application Firewall (art of defence)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "ODSESSION=",
+		"cookie" : ""
+	},
+	"Incapsula Web Application Firewall (Incapsula/Imperva)" : {
+		"code" : "",
+		"page" : "Incapsula incident ID|_Incapsula_Resource|subject=WAF Block Page|If you feel you have been blocked in error, please contact Customer Support",
+		"headers" : "X-Iinfo|incap_ses|visid_incap",
+		"cookie" : ""
+	},
+	"ISA Server (Microsoft)" : {
+		"code" : "",
+		"page" : "The server denied the specified Uniform Resource Locator (URL)\\. Contact the server administrator\\.",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Jiasule Web Application Firewall (Jiasule)" : {
+		"code" : "403",
+		"page" : "static\\.jiasule\\.com/static/js/http_error\\.js|notice-jiasule",
+		"headers" : "jiasule-WAF|__jsluid=|jsl_tracking",
+		"cookie" : ""
+	},
+	"KS-WAF (Knownsec)" : {
+		"code" : "",
+		"page" : "ks-waf-error\\.png'",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"KONA Security Solutions (Akamai Technologies)" : {
+		"code" : "400|403|501",
+		"page" : "",
+		"headers" : "AkamaiGHost",
+		"cookie" : ""
+	},
+	"ModSecurity: Open Source Web Application Firewall (Trustwave)" : {
+		"code" : "",
+		"page" : "This error was generated by Mod_Security|One or more things in your request were suspicious|rules of the mod_security module",
+		"headers" : "Mod_Security|NOYB",
+		"cookie" : ""
+	},
+	"NAXSI (NBS System)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "naxsi/waf",
+		"cookie" : ""
+	},
+	"NetContinuum Web Application Firewall (NetContinuum/Barracuda Networks)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "NCI__SessionId=",
+		"cookie" : ""
+	},
+	"NetScaler (Citrix Systems)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "ns_af=|citrix_ns_id|NSC_|NS-CACHE",
+		"cookie" : ""
+	},
+	"Newdefend Web Application Firewall (Newdefend)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "newdefend",
+		"cookie" : ""
+	},
+	"NSFOCUS Web Application Firewall (NSFOCUS)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "NSFocus",
+		"cookie" : ""
+	},
+	"Palo Alto Firewall (Palo Alto Networks)" : {
+		"code" : "",
+		"page" : "has been blocked in accordance with company policy",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Profense Web Application Firewall (Armorlogic)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "PLBSID=|Profense",
+		"cookie" : ""
+	},
+	"AppWall (Radware)" : {
+		"code" : "",
+		"page" : "Unauthorized Activity Has Been Detected.*?Case Number:",
+		"headers" : "X-SL-CompState",
+		"cookie" : ""
+	},
+	"Reblaze Web Application Firewall (Reblaze)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "rbzid=|Reblaze Secure Web Gateway",
+		"cookie" : ""
+	},
+	"ASP.NET RequestValidationMode (Microsoft)" : {
+		"code" : "500",
+		"page" : "ASP\\.NET has detected data in the request that is potentially dangerous|Request Validation has detected a potentially dangerous client input value|HttpRequestValidationException",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Safe3 Web Application Firewall" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "Safe3",
+		"cookie" : ""
+	},
+	"Safedog Web Application Firewall (Safedog)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "WAF/2\\.0|safedog",
+		"cookie" : ""
+	},
+	"SecureIIS Web Server Security (BeyondTrust)" : {
+		"code" : "",
+		"page" : "SecureIIS.*?Web Server Protection|http://www\\.eeye\\.com/SecureIIS/|\\?subject=[^>]*SecureIIS Error",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"SEnginx (Neusoft Corporation)" : {
+		"code" : "",
+		"page" : "SENGINX-ROBOT-MITIGATION",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"TrueShield Web Application Firewall (SiteLock)" : {
+		"code" : "",
+		"page" : "SiteLock Incident ID|sitelock-site-verification|sitelock_shield_logo",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"SonicWALL (Dell)" : {
+		"code" : "",
+		"page" : "This request is blocked by the SonicWALL|#shd|#nsa_banner|Web Site Blocked.*?\\bnsa_banner",
+		"headers" : "SonicWALL",
+		"cookie" : ""
+	},
+	"UTM Web Protection (Sophos)" : {
+		"code" : "",
+		"page" : "Powered by UTM Web Protection",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Stingray Application Firewall (Riverbed / Brocade)" : {
+		"code" : "403|500",
+		"page" : "",
+		"headers" : "X-Mapping-",
+		"cookie" : ""
+	},
+	"CloudProxy WebSite Firewall (Sucuri)" : {
+		"code" : "403",
+		"page" : "Access Denied.*?Sucuri Website Firewall|Sucuri WebSite Firewall.*?Access Denied|Questions\\?.*?cloudproxy@sucuri\\.net",
+		"headers" : "Sucuri/Cloudproxy|X-Sucuri",
+		"cookie" : ""
+	},
+	"Tencent Cloud Web Application Firewall (Tencent Cloud Computing)" : {
+		"code" : "405",
+		"page" : "waf\\.tencent-cloud\\.com",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Teros/Citrix Application Firewall Enterprise (Teros/Citrix Systems)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "st8(id|_wat|_wlf)",
+		"cookie" : ""
+	},
+	"TrafficShield (F5 Networks)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "F5-TrafficShield|ASINFO=",
+		"cookie" : ""
+	},
+	"UrlScan (Microsoft)" : {
+		"code" : "",
+		"page" : "Rejected-By-UrlScan",
+		"headers" : "Rejected-By-UrlScan",
+		"cookie" : ""
+	},
+	"USP Secure Entry Server (United Security Providers)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "Secure Entry Server",
+		"cookie" : ""
+	},
+	"Varnish FireWall (OWASP)" : {
+		"code" : "",
+		"page" : "Request rejected by xVarnish-WAF|\\bXID: \\d+",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Wallarm Web Application Firewall (Wallarm)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "nginx-wallarm",
+		"cookie" : ""
+	},
+	"WatchGuard (WatchGuard Technologies)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "WatchGuard",
+		"cookie" : ""
+	},
+	"WebKnight Application Firewall (AQTRONIX)" : {
+		"code" : "999",
+		"page" : "WebKnight Application Firewall Alert|AQTRONIX WebKnight",
+		"headers" : "WebKnight",
+		"cookie" : ""
+	},
+	"Wordfence (Feedjit)" : {
+		"code" : "",
+		"page" : "This response was generated by Wordfence|Your access to this site has been limited",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Zenedge Web Application Firewall (Zenedge)" : {
+		"code" : "",
+		"page" : "zenedge/assets/",
+		"headers" : "ZENEDGE",
+		"cookie" : ""
+	},
+	"Yundun Web Application Firewall (Yundun)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "YUNDUN",
+		"cookie" : ""
+	},
+	"Yunsuo Web Application Firewall (Yunsuo)" : {
+		"code" : "",
+		"page" : "<img class=.yunsuologo.",
+		"headers" : "yunsuo_session",
+		"cookie" : ""
+	},
+    "AireeCDN (Airee)" : {
+        "code" : "",
+        "page" : "airee\\.cloud",
+        "headers" : "Airee",
+		"cookie" : ""
+    },
+    "Alert Logic" : {
+        "code" : "",
+        "page" : "<(title|h\\d{1})>requested url cannot be found|we are sorry.{0,10}?but the page you are looking for cannot be found|back to previous page|proceed to homepage|reference id",
+        "headers" : "",
+		"cookie" : ""
+    },
+    "AliYunDun (Alibaba Cloud Computing)" : {
+        "code" : "405",
+        "page" : "error(s)?\\.aliyun(dun)?\\.(com|net)?|cdn\\.aliyun(cs)?\\.com",
+        "headers" : "",
+		"cookie" : "aliyungf_tc="
+    },
+	"AnYu (AnYu Technologies)" : {
+		"code" : "",
+		"page" : "anyu.{0,10}?the green channel|your access has been intercepted by anyu",	
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Approach" : {
+		"code" : "",
+		"page" : "approach.{0,10}?web application (firewall|filtering)|approach.{0,10}?infrastructure team",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"ArvanCloud" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "ArvanCloud",
+		"cookie" : ""
+	},
+	"ASPA Firewall (ASPA Engineering Co.)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "ASPA[\\-_]?WAF|ASPA-Cache-Status",
+		"cookie" : ""
+	},
+	"ASP.NET Generic (Microsoft)" : {
+		"code" : "",
+		"page" : "iis (\\d+.)+?detailed error|potentially dangerous request querystring|application error from being viewed remotely (for security reasons)?|An application error occurred on the server",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Astra (Czar Securities)" : {
+		"code" : "",
+		"page" : "astrawebsecurity\\.freshdesk\\.com|www\\.getastra\\.com/assets/images",
+		"headers" : "",
+		"cookie" : "cz_astra_csrf_cookie"
+	},
+	"AWS Elastic Load Balancer (Amazon)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "X-AMZ-ID|X-AMZ-Request-ID",
+		"cookie" : "aws.?alb="
+	},
+	"AzionCDN (AzionCDN)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "Azion([-_]CDN)?",
+		"cookie" : ""
+	},
+	"Barikode (Ethic Ninja)" : {
+		"code" : "",
+		"page" : "<strong>barikode<.strong>",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Bekchy (Faydata Technologies Inc.)" : {
+		"code" : "",
+		"page" : "Bekchy.{0,10}?Access Denied|bekchy\\.com/report",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Beluga CDN (Beluga)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "Beluga",
+		"cookie" : "beluga_request_trail="
+	},
+	"BitNinja" : {
+		"code" : "",
+		"page" : "Security check by BitNinja|Visitor anti-robot validation", 
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Bluedon (Bluedon IST)" : {
+		"code" : "",
+		"page" : "bluedon web application firewall",
+		"headers" : "BDWAF",
+		"cookie" : ""
+	},
+	"BulletProof Security Pro (AITpro Security)" : {
+		"code" : "",
+		"page" : "\\+?bpsMessage|403 Forbidden Error Page|If you arrived here due to a search",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"CacheFly CDN (CacheFly)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "Cachefly",
+		"cookie" : "cfly_req.*="		
+	},
+	"CacheWall (Varnish)" : {
+		"code" : "",
+		"page" : "security by cachewall|403 naughty.{0,10}?not nice!|varnish cache server",
+		"headers" : "Varnish|X-Varnish|X-Cachewall-Action|X-Cachewall-Reason",
+		"cookie" : ""
+	},
+	"CdnNS Application Gateway (CdnNs/WdidcNet)" : {
+		"code" : "",
+		"page" : "cdnnswaf application gateway",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"WP Cerber Security (Cerber Tech" : {
+		"code" : "",
+		"page" : "your request looks suspicious or similar to automated|our server stopped processing your request|We.re sorry.{0,10}?you are not allowed to proceed|requests from spam posting software|<title>403 Access Forbidden", 
+		"headers" : "",
+		"cookie" : ""
+	},
+	"Chuang Yu Shield (Yunaq)" : {
+		"code" : "",
+		"page" : "www\\.365cyd\\.com|help\\.365cyd\\.com/cyd\\-error\\-help.html\\?code=403",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"ACE XML Gateway (Cisco)" : {
+		"code" : "",
+		"page" : "", 
+		"headers" : "ACE XML Gateway",
+		"cookie" : ""
+	},
+	"Cloudfloor (Cloudfloor DNS)" : {
+		"code" : "",
+		"page": "<(title|h\\d{1})>CloudfloorDNS.{0,6}?Web Application Firewall Error|www\\.cloudfloordns\\.com/contact", 
+		"headers" : "CloudfloorDNS(.WAF)?",
+		"cookie" : ""
+	},
+	"Cloud Protector (Rohde & Schwarz CyberSecurity)" : {
+		"code" : "",
+		"page" : "Cloud Protector.*?by Rohde.{3,8}?Schwarz Cybersecurity|<a href='https?:\/\/(?:www\\.)?cloudprotector\\.com\/'>R.{1,6}?S.Cloud Protector", 
+		"headers" : "",
+		"cookie" : ""
+	},
+	"DDoS-GUARD (DDOS-GUARD CORP.)" : {
+		"code" : "",
+		"page" : "", 
+		"headers" : "ddos-guard",
+		"cookie" : "__ddg1.*?=|__ddg2.*?=|__ddgid.*?=|__ddgmark.*?="
+	},
+	"Distil (Distil Networks)" : {
+		"code" : "",
+		"page" : "cdn\\.distilnetworks\\.com/images/anomaly\\.detected\\.png|distilCaptchaForm|distilCallbackGuard", 
+		"headers" : "",
+		"cookie" : ""
+	},
+	"DynamicWeb Injection Check (DynamicWeb)" : {
+		"code" : "",
+		"page" : "by dynamic check(.{0,10}?module)?", 
+		"headers" : "dw.inj.check",
+		"cookie" : ""
+	},
+	"Eisoo Cloud Firewall (Eisoo)" : {
+		"code" : "",
+		"page" : "<link.{0,10}?href=\"/eisoo\\-firewall\\-block\\.css|www\\.eisoo\\.com|&copy; \\d{4} Eisoo In", 
+		"headers" : "EisooWAF(\\-AZURE)?/?",
+		"cookie" : ""
+	},
+	"Azure Front Door (Microsoft)" : {
+		"code" : "",
+		"page" : "", 
+		"headers" : "X-Azure-Ref",
+		"cookie" : ""
+	},
+	"GoDaddy Website Protection (GoDaddy)" : {
+		"code" : "", 
+		"page" : "GoDaddy (security|website firewall)", 
+		"headers" : "",
+		"cookie" : "" 
+	},
+	"Greywizard" : {
+		"code" : "",
+		"page" : "<(title|h\\d{1})>Grey Wizard|contact the website owner or Grey Wizard|We.ve detected attempted attack or non standard traffic from your ip address", 
+		"headers" : "greywizard",
+		"cookie" : ""
+	},
+	"Huawei Cloud Firewall (Huawei)" : {
+		"code" : "", 
+		"page" : "hwclouds\\.com|hws_security@", 
+		"headers" : "HuaweiCloudWAF",
+		"cookie" : "HWWAFSESID="
+	},
+	"DataPower (IBM)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "X-Backside-Transport",
+		"cookie" : ""
+	},
+	"Imunify360 (CloudLinux)" : {
+		"code" : "",
+		"page" : "protected.by.{0,10}?imunify360|powered.by.{0,10}?imunify360|imunify360.preloader", 
+		"headers" : "imunify360.{0,10}?",
+		"cookie" : ""
+	},
+	"IndusGuard (Indusface)" : {
+		"code" : "",
+		"page" : "This website is secured against online attacks. Your request was blocked",
+		"headers" : "IF_WAF",
+		"cookie" : ""
+	},
+	"Instart DX (Instart Logic)" : {
+		"code" : "", 
+		"page" : "the requested url was rejected|please consult with your administrator|your support id is", 
+		"headers": "X-Instart-Request-ID|X-Instart-Cache|X-Instart-WL",
+		"cookie" : ""
+	},
+	"Janusec Application Gateway (Janusec)" : {
+		"code" : "",
+		"page" : "janusec application gateway", 
+		"headers" : "",
+		"cookie" : ""
+	},
+	"KeyCDN" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "KeyCDN",
+		"cookie" : ""
+	},
+	"LimeLight CDN (LimeLight)" : {
+		"code" : "",
+		"page" : "", 
+		"headers" : "",
+		"cookie" : "l[mg]_sessid=|limelight"
+	},
+	"LiteSpeed (LiteSpeed Technologies)" : {
+		"code" : "403",
+		"page" : "Proudly powered by litespeed web server|www\\.litespeedtech\\.com/error\\-page",
+		"headers" : "LiteSpeed",
+		"cookie" : ""
+	},
+	"Malcare (Inactiv)" : {
+		"code" : "",
+		"page" : "firewall.{0,15}?powered.by.{0,15}?malcare.{0,15}?pro|blocked because of malicious activities", 
+		"headers" : "",
+		"cookie" : ""
+	},
+	"MaxCDN" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "maxcdn",
+		"cookie" : ""
+	},
+	"Mission Control Shield (Mission Control)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "Mission Control Application Shield",
+		"cookie" : ""
+	},
+	"Nemesida (PentestIt)" : {
+		"code" : "222",
+		"page" : "@?nemesida(\\-security)?\\.com|Suspicious activity detected.{0,10}?Access to the site is blocked|nwaf@", 
+		"headers" : "",
+		"cookie" : ""
+	},
+	"NevisProxy (AdNovum)" : {
+		"code" : "",
+		"page" : "",
+		"headers" : "",
+		"cookie" : "Navajo|NP_ID"
+	},
+	"NexusGuard Firewall (NexusGuard)" : {
+		"code" : "",
+		"page" : "Powered by Nexusguard|nexusguard\\.com/wafpage/.+#\\d{3};",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"NinjaFirewall (NinTechNet)" : {
+		"code" : "",
+		"page" : "<title>NinjaFirewall.{0,10}?\\d{3}.forbidden|For security reasons?.{0,10}?it was blocked and logged",
+		"headers" : "",
+		"cookie" : ""
+	},
+	"NSFocus (NSFocus Global Inc.)" : {
+		"code" : "",
+		"page" : "", 
+		"headers" : "NSFocus",
+		"cookie" : ""
+	},
+	"NullDDoS Protection (NullDDoS)" : {
+		"code" : "",
+		"page" : "", 
+		"headers" : "NullDDoS(.System)?",
+		"cookie" : ""
+	},
+	"OnMessage Shield (BlackBaud)" : {
+		"code" : "",
+		"page" : "Blackbaud K\\-12 conducts routine maintenance|onMessage SHEILD|maintenance\\.blackbaud\\.com|status\\.blackbaud\\.com", 
+		"headers" : "onMessage Shield", 
+		"cookie" : ""
+	},
+	"Open-Resty Lua Nginx (FLOSS)" : {
+		"code" : "406", 
+		"page" : "openresty/[0-9\\.]+?", 
+		"headers" : "openresty/[0-9\\.]+?", 
+		"cookie" : ""
+	},
+	"PentaWAF (Global Network Services)" : {
+		"code" : "",
+		"page" : "Penta.?Waf/[0-9\\.]+?.server", 
+		"headers" : "PentaWaf(/[0-9\\.]+)?", 
+		"cookie" : ""
+	},
+	"PerimeterX" : {
+		"code" : "",
+		"page" : "www\\.perimeterx\\.(com|net)/whywasiblocked|client\\.perimeterx\\.(net|com)|denied because we believe you are using automation tools", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"pkSecurity IDS (pkSec)" : {
+		"code" : "", 
+		"page" : "pk.?Security.?Module|Security.Alert|As this could be a potential hack attack|A safety critical (call|request) was (detected|discovered) and blocked|maximum number of reloads per minute and prevented access", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"PowerCDN" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "(.*)?powercdn.com(.*)?|(.*)?powercdn.com(.*)?|PowerCDN", 
+		"cookie" : ""
+	},
+	"PT Application Firewall (Positive Technologies)" : {
+		"code" : "", 
+		"page" : "<h1.{0,10}?Forbidden|<pre>Request.ID:.{0,10}?\\d{4}\\-(\\d{2})+.{0,35}?pre>", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"Puhui" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "Puhui[\\-_]?WAF", 
+		"cookie" : ""
+	},
+	"Qcloud (Tencent Cloud)" : {
+		"code" : "403", 
+		"page" : "腾讯云Web应用防火墙", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"Qiniu (Qiniu CDN)" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "X-Qiniu-CDN", 
+		"cookie" : ""
+	},
+	"Qrator" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "QRATOR",
+		"cookie" : ""
+	},
+	"RSFirewall (RSJoomla!)" : {
+		"code" : "", 
+		"page" : "com_rsfirewall_(\\d{3}_forbidden|event)?", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"Sabre Firewall (Sabre)" : {
+		"code" : "", 
+		"page" : "dxsupport\\.sabre\\.com|<title>Application Firewall Error|add some important details to the email for us to investigate", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"Safeline (Chaitin Tech.)" : {
+		"code" : "", 
+		"page" : "safeline|<!\\-\\-\\sevent id:", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"SecKing (SecKing)" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "secking(.?waf)?", 
+		"cookie" : ""
+	},
+	"SecuPress WP Security (SecuPress)" : {
+		"code" : "", 
+		"page" : "<(title|h\\d{1})>SecuPress", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"Secure Entry (United Security Providers)" : {
+		"code" : "", 
+		"page" : "",
+		"headers" : "Secure Entry Server", 
+		"cookie" : ""
+	},
+	"SecureSphere (Imperva Inc.)" : {
+		"code" : "", 
+		"page" : "<(title|h2)>Error|The incident ID is|This page can't be displayed|Contact support for additional information", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"ServerDefender VP (Port80 Software)" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "p(ort\\-)?80", 
+		"cookie" : ""
+	},
+	"Shadow Daemon (Zecure)" : {
+		"code" : "", 
+		"page" : "<h\\d{1}>\\d{3}.forbidden<.h\\d{1}>|request forbidden by administrative rules", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"Shield Security (One Dollar Plugin)" : {
+		"code" : "", 
+		"page" : "You were blocked by the Shield|remaining transgression\\(s\\) against this site|Something in the URL.{0,5}?Form or Cookie data wasn\\'t appropriate",
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"SiteGuard (Sakura Inc.)" : {
+		"code" : "", 
+		"page" : "Powered by SiteGuard|The server refuse to browse the page", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"SiteGround" : {
+		"code" : "",
+		"page" : "Our system thinks you might be a robot!|access is restricted due to a security rule", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"Squarespace (Squarespace)" : {
+		"code" : "", 
+		"page" : "status\\.squarespace\\.com|BRICK\\-\\d{2}", 
+		"headers" : "Squarespace", 
+		"cookie" : "SS_ANALYTICS_ID=|SS_MATTR=|SS_MID=|SS_CVT="
+	},
+	"SquidProxy IDS (SquidProxy)" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "squid(/[0-9\\.]+)?", 
+		"cookie" : "Access control configuration prevents your request"
+	},
+	"StackPath" : {
+		"code" : "",
+		"page" : "This website is using a security service to protect itself|You performed an action that triggered the service and blocked your request",	
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"TransIP Web Firewall (TransIP)" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "X-TransIP-Backend|X-TransIP-Balancer", 
+		"cookie" : ""
+	},
+	"UEWaf (UCloud)" : {
+		"code" : "", 
+		"page" : "/uewaf_deny_pages/default/img/|ucloud\\.cn", 
+		"headers" : "uewaf(/[0-9\\.]+)?", 
+		"cookie" : ""
+	},
+	"URLMaster SecurityCheck (iFinity/DotNetNuke)" : {
+		"code" : "", 
+		"page" : "Ur[li]RewriteModule|SecurityCheck", 
+		"headers" : "X-UrlMaster-Debug|X-UrlMaster-Ex", 
+		"cookie" : ""
+	},
+	"Viettel (Cloudrity)" : {
+		"code" : "", 
+		"page" : "Access Denied.{0,10}?Viettel WAF|cloudrity\\.com\\.(vn)?/|Viettel WAF System", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"VirusDie (VirusDie LLC)" : {
+		"code" : "", 
+		"page" : "cdn\\.virusdie\\.ru/splash/firewallstop\\.png|copy.{0,10}?Virusdie\\.ru", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"WebARX (WebARX Security Solutions)" : {
+		"code" : "", 
+		"page" : "WebARX.{0,10}?Web Application Firewall|www\\.webarxsecurity\\.com|/wp\\-content/plugins/webarx/includes/", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"WebLand" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "protected by webland", 
+		"cookie" : ""
+	},
+	"RayWAF (WebRay Solutions)" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "WebRay\\-WAF|RaySrv.RayEng/[0-9\\.]+?", 
+		"cookie" : ""
+	},
+	"WebSEAL (IBM)" : {
+		"code" : "", 
+		"page" : "This is a WebSEAL error message template file|WebSEAL server received an invalid HTTP request", 
+		"headers" : "WebSEAL", 
+		"cookie" : ""
+	},
+	"WebTotem" : {
+		"code" : "", 
+		"page" : "The current request was blocked.{0,8}?>WebTotem", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"West263 CDN" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "WS?T263CDN", 
+		"cookie" : ""
+	},
+	"wpmudev WAF (Incsub)" : {
+		"code" : "403", 
+		"page" : "Click on the Logs tab, then the WAF Log.|Choose your site from the list|<h1>Whoops, this request has been blocked!|This request has been deemed suspicious|possible attack on our servers.", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"WTS-WAF (WTS)" : {
+		"code" : "", 
+		"page" : "<(title|h\\d{1})>WTS\\-WAF",
+		"headers" : "wts/[0-9\\.]+?",
+		"cookie" : "" 
+	},
+	"360WangZhanBao (360 Technologies)" : {
+		"code" : "493", 
+		"page" : "wzws\\-waf\\-cgi|wangshan\\.360\\.cn", 
+		"headers" : "qianxin\\-waf|WZWS-Ray|X-Powered-By-360WZB", 
+		"cookie" : ""
+	},
+	"XLabs Security WAF (XLabs)" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "XLabs Security|By XLabs Security", 
+		"cookie" : ""
+	},
+	"Xuanwudun" : {
+		"code" : "", 
+		"page" : "admin\\.dbappwaf\\.cn/(index\\.php/Admin/ClientMisinform/)?|class=.(db[\\-_]?)?waf(.)?([\\-_]?row)?>", 
+		"headers" : "", 
+		"cookie" : ""
+	},
+	"YXLink (YxLink Technologies)" : {
+		"code" : "", 
+		"page" : "", 
+		"headers" : "Yxlink([\\-_]?WAF)?", 
+		"cookie" : "yx_ci_session=|yx_language="
+	}	
+}
