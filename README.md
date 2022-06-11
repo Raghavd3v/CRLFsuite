@@ -42,6 +42,24 @@ $ crlfsuite -h
 
 :heavy_check_mark: Fast and efficient scanning with negligible false-positive
 
+## Arguments
+
+|Argument | Discription|
+|---------|------------|
+|-u/--url | target URL |
+|-i/--import-urls|Import targets from the file|
+|-s/--stdin|Scan URLs from stdin|
+|-o/--output|Path for output file|
+|-m/--method|Request method (GET/POST)|
+|-d/--data|POST data|
+|-uA/--user-agent|Specify User-Agent|
+|-To/--timeout|Connection timeout|
+|-c/--cookies|Specify cookies|
+|-v/--verify|Verify SSL cert.|
+|-t/--threads|Number of concurrent threads|
+|-sB/--skip-banner|Skip banner and args info|
+|-sP/--show-payloads|Show all the available CRLF payloads|
+
 ## 📈 Usage
 
 Single URL scanning:
