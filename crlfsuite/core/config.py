@@ -1,3 +1,0 @@
-vuln_urls = [] #to access vulnerable URLs globally
-escape_chars = ['%0d','%0a', '%0d%20', '%0a%20' , '%3f' , '%0d%0a', '%23%0d', '%23%0a', '%23%0d%0a', '%u000a', '%25%30%61', '%25%30a', '%3f%0d', '%3f%0d%0a', '%3f%0a' , '%%0a0a', '%u000d', '%u0000', '%0d%09', '%0d%0a%09', '%0d%0a%20' , '%25250a', '%250a', '%2F..%0d%0a', '%2f%2e%2e%0d%0a', '%25%30' , '%2e%2e%2f%0d%0a', '%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D', '%E5%98%8A%E5%98%8D', '%e5%98%8a%e5%98%8d%0a', '%e5%98%8a%e5%98%8d%0d', '%e5%98%8a%e5%98%8d%0d%0a' , f"\\r", f"\\r\\n", f"\\r\\t", f"\\r\\n\\t", f"\\r%20", f"\\r\\n%20"]
-starting_strings = ["crlfsuite", "?crlfsuite=", "#", '__session_start__/']
