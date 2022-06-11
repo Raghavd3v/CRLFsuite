@@ -9,6 +9,7 @@
 
 CRLFsuite is a fast tool specially designed to scan `CRLF injection`.
 
+<img src="https://github.com/Nefcore/CRLFsuite/blob/main/static/crlfsuitev2.0.svg">
 
 <hr>
 
@@ -27,15 +28,17 @@ $ crlfsuite -h
 
 :heavy_check_mark: Multiple URL scanning
 
+:heavy_check_mark: WAF detection
+
+:heavy_check_mark: XSS through CRLF injection
+
 :heavy_check_mark: Stdin supported
 
 :heavy_check_mark: GET & POST method supported
 
 :heavy_check_mark: Concurrency
 
-:heavy_check_mark: Best Payloads list
-
-:heavy_check_mark: Headers supported
+:heavy_check_mark: Powerful payloads (WAF evasion payloads are also included)
 
 :heavy_check_mark: Fast and efficient scanning with negligible false-positive
 
