@@ -60,7 +60,7 @@ $ crlfsuite -h
 |-sB/--skip-banner|Skip banner and args info|
 |-sP/--show-payloads|Show all the available CRLF payloads|
 
-## 📈 Usage
+## Usage
 
 Single URL scanning:
 
@@ -92,11 +92,11 @@ Using POST method:
 $ crlfsuite -i targets.txt -m POST -d "key=val&newkey=newval"
 ```
 
-## 🔑 License
+## License
 
 :point_right: <a href="https://github.com/Nefcore/CRLFsuite/blob/main/LICENSE">MIT LICENSE</a>
 
-## 🐞 Bug report
+## Bug report
 
 If You're facing some errors or issues with this tool, you can open a issue here:
 
