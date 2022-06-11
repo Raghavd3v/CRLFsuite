@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/Nefcore/CRLFsuite/blob/main/static/crlfsuite_logo.png" height="200"/></p>
+<a href="https://github.com/Nefcore/CRLFsuite"><p align="center"><img src="https://github.com/Nefcore/CRLFsuite/blob/main/static/CRLFsuite_logo2.0.png" height="150" width="150"></p></a>
 <h2 align="center">CRLFsuite - CRLF injection scanner</h2>
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
