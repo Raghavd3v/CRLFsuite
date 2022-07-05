@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "CRLFsuite",
-    version = "2.0",
+    version = "2.0.1",
     author = "HS Devansh Raghav",
     license = "MIT",
     keywords = ["CRLFsuite", "Bug Bounty", "pentesting", "security", "hacking"],
