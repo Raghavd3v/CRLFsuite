@@ -4,10 +4,10 @@ from setuptools import setup, find_packages
 
 setup(
     name = "CRLFsuite",
-    version = "2.0.1",
+    version = "2.1.1",
     author = "HS Devansh Raghav",
     license = "MIT",
-    keywords = ["CRLFsuite", "Bug Bounty", "pentesting", "security", "hacking"],
+    keywords = ["CRLFsuite", "Bug Bounty", "pentesting", "security", "CRLF Injection"],
     url = "https://github.com/Nefcore/CRLFsuite",
     packages=find_packages(),
     package_data={'crlfsuite': ['db/*']},
