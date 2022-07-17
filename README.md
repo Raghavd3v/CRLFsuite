@@ -13,6 +13,8 @@ CRLFsuite is a fast tool specially designed to scan `CRLF injection`.
 
 <hr>
 
+**Caution: CRLFsuite is still not compatible with windows. Installing CRLFsuite on windows may allow an attacker to escalate privileges (issue: <a href="https://github.com/Nefcore/CRLFsuite/issues/4">#4</a>). We are working on compatibility with windows.**
+
 ## ⬇️ Installation
 
 ```ruby
