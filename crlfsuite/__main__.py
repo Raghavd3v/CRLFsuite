@@ -19,6 +19,7 @@ if not silent:
         args_info(url, urls, std, output_file, method, data, cookies, timeout, user_agent["User-Agent"], verify, threads)
     elif type(user_agent) == str:
         args_info(url, urls, std, output_file, method, data, cookies, timeout, user_agent, verify, threads)
+        user_agent = {"User-Agent": user_agent}
     else:
         None
     logger.info('CRLFsuite v2.1.1 (%sCRLF vulnerability Scanner%s)' % (green,reset))
