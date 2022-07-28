@@ -15,10 +15,12 @@ now = datetime.now()
 dt_string = now.strftime("%d-%m-%Y %H:%M")
 
 if not silent:
-    try:
+    if type(user_agent) == dict:
         args_info(url, urls, std, output_file, method, data, cookies, timeout, user_agent["User-Agent"], verify, threads)
-    except TypeError:
+    elif type(user_agent) == str:
         args_info(url, urls, std, output_file, method, data, cookies, timeout, user_agent, verify, threads)
+    else:
+        None
     logger.info('CRLFsuite v2.1.1 (%sCRLF vulnerability Scanner%s)' % (green,reset))
     logger.warn('Use with caution. You are responsible for your actions')
     logger.warn('Developers assume no liability and are not responsible for any misuse or damage.')
