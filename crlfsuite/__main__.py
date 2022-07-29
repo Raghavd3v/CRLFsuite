@@ -10,6 +10,8 @@ from crlfsuite.core.logger import args_info, green, reset, bright, red, show_pay
 from crlfsuite.core.config import vuln_urls
 from datetime import datetime
 from crlfsuite.plugins.wafdetector import WafDetector
+import warnings 
+warnings.filterwarnings('ignore')
 
 now = datetime.now()
 dt_string = now.strftime("%d-%m-%Y %H:%M")
