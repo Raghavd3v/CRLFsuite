@@ -3,6 +3,8 @@
 import re
 import json
 import requests
+import warnings 
+warnings.filterwarnings('ignore')
 
 crlfsuite_dir = __file__.replace('/plugins/wafdetector.py', '')
 
