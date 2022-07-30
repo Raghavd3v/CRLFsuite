@@ -18,7 +18,7 @@ banner = f"""{bright}            ___
 |     | __  [{backred}\{reset}{bright}]   __|___ _ _|_| |_ ___ 
 |   --|    -[{backred}#{reset}{bright}]   __|_ -| | | |  _| -_|
 |_____|__|__[{backred};{reset}{bright}]__|  |___|___|_|_| |___|
-             V                        v2.1.1
+             V                        v2.1.2
                 {reset}({green}\x1B[3mBy Nefcore Security\x1B[0m{reset})
 """
 
