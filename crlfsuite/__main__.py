@@ -24,7 +24,7 @@ if not silent:
         user_agent = {"User-Agent": user_agent}
     else:
         None
-    logger.info('CRLFsuite v2.1.1 (%sCRLF vulnerability Scanner%s)' % (green,reset))
+    logger.info('CRLFsuite v2.1.2 (%sCRLF vulnerability Scanner%s)' % (green,reset))
     logger.warn('Use with caution. You are responsible for your actions')
     logger.warn('Developers assume no liability and are not responsible for any misuse or damage.')
 
