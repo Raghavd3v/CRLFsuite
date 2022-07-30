@@ -17,7 +17,11 @@ CRLFsuite is a fast tool specially designed to scan `CRLF injection`.
 
 ## ⬇️ Installation
 
-```ruby
+`sudo pip install crlfsuite`
+
+or 
+
+```
 $ git clone https://github.com/Nefcore/CRLFsuite.git
 $ cd CRLFsuite
 $ sudo python3 setup.py install
