@@ -7,103 +7,63 @@
 [![GitHub forks](https://badgen.net/github/forks/Nefcore/CRLFsuite/)](https://GitHub.com/Nefcore/CRLFsuite/network/)
 [![GitHub contributors](https://img.shields.io/github/contributors/Nefcore/CRLFsuite)](https://GitHub.com/Nefcore/badges/graphs/contributors/)
 
-CRLFsuite is a fast tool specially designed to scan `CRLF injection`.
-
 <img src="https://github.com/Nefcore/CRLFsuite/blob/main/static/crlfsuitev2.0.svg">
 
 <hr>
 
-**Caution: CRLFsuite is still not compatible with windows. Installing CRLFsuite on windows may allow an attacker to escalate privileges (issue: <a href="https://github.com/Nefcore/CRLFsuite/issues/4">#4</a>). We are working on compatibility with windows.**
+CRLFsuite is a powerful tool for `CRLF injection` detection and exploitation. Want to know how it works. <a href="https://github.com/Nefcore/CRLFsuite/wiki/How-CRLFsuite-works%3F">Here's how</a>
+## Installation
 
-## ⬇️ Installation
-
-`sudo pip install crlfsuite`
-
-or 
+You can install CRLFsuite using `pip` as given below:
 
 ```
-$ git clone https://github.com/Nefcore/CRLFsuite.git
-$ cd CRLFsuite
-$ sudo python3 setup.py install
-$ crlfsuite -h
+pip3 install crlfsuite
 ```
 
-## ⚙️ Features
-
-:heavy_check_mark: Single URL scanning
-
-:heavy_check_mark: Multiple URL scanning
-
-:heavy_check_mark: WAF detection
-
-:heavy_check_mark: XSS through CRLF injection
-
-:heavy_check_mark: Stdin supported
-
-:heavy_check_mark: GET & POST method supported
-
-:heavy_check_mark: Concurrency
-
-:heavy_check_mark: Powerful payloads (WAF evasion payloads are also included)
-
-:heavy_check_mark: Fast and efficient scanning with negligible false-positive
-
-## Arguments
-
-|Argument | Discription|
-|---------|------------|
-|-u/--url | target URL |
-|-i/--import-urls|Import targets from the file|
-|-s/--stdin|Scan URLs from stdin|
-|-o/--output|Path for output file|
-|-m/--method|Request method (GET/POST)|
-|-d/--data|POST data|
-|-uA/--user-agent|Specify User-Agent|
-|-To/--timeout|Connection timeout|
-|-c/--cookies|Specify cookies|
-|-v/--verify|Verify SSL cert.|
-|-t/--threads|Number of concurrent threads|
-|-sB/--skip-banner|Skip banner and args info|
-|-sP/--show-payloads|Show all the available CRLF payloads|
-
-## Usage
-
-Single URL scanning:
-
-```python
-$ crlfsuite -u "http://testphp.vulnweb.com"
-```
-
-Multiple URLs scanning:
+or download this repository and run the following command:
 
 ```
-$ crlfsuite -i targets.txt
+sudo python3 setup.py install
 ```
 
-from stdin:
+## Features
 
-```bash
-$ subfinder -d google.com -silent | httpx -silent | crlfsuite -s
-```
+* Single URL scanning
 
-Specifying cookies 🍪:
+* Multiple URL scanning
 
-```python
-$ crlfsuite -u "http://testphp.vulnweb.com" --cookies "key=val; newkey=newval"
-```
+* Stdin supported
 
-Using POST method:
+* WAF detection
 
-```python
-$ crlfsuite -i targets.txt -m POST -d "key=val&newkey=newval"
-```
+* Powerful payload generator
 
-## License
+* CRLF Injection to XSS Chaining feature 
 
-:point_right: <a href="https://github.com/Nefcore/CRLFsuite/blob/main/LICENSE">MIT LICENSE</a>
+* GET & POST method supported
 
-## Bug report
+* Concurrency
 
-If You're facing some errors or issues with this tool, you can open a issue here:
+* Fast and efficient scanning with negligible false-positive
 
-👉 <a href="https://github.com/Nefcore/CRLFsuite/issues">Open a issue</a>
+### Newly added in v2.5.1:
+
+* Json & Text ouput supported
+
+* Multiple headers supported
+
+* Verbose output supported
+
+* Scan can be resumed after CTRL^C is pressed
+
+* Added heuristic (basic) scanner
+
+* Compatibility with windows
+
+
+### credits
+
+* <a href="https://github.com/Nefcore/CRLFsuite/blob/main/crlfsuite/core/prompt.py">prompt.py</a> is taken from <a href="https://github.com/s0md3v/Arjun/blob/master/arjun/core/prompt.py">Arjun</a>
+* WAF Detection methodology is taken from <a href="https://github.com/s0md3v/XSStrike/blob/master/core/wafDetector.py">XSStrike</a>
+* User-Agent list is taken from <a href="https://github.com/devanshbatham/ParamSpider/blob/master/core/requester.py">ParamSpider</a>
+* WAF signatures is taken from <a href="https://github.com/s0md3v/XSStrike/blob/master/db/wafSignatures.json">XSStrike</a> and <a href="https://github.com/EnableSecurity/wafw00f/tree/master/wafw00f/plugins">wafw00f</a>
