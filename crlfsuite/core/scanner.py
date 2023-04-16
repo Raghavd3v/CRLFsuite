@@ -21,11 +21,11 @@ def scanner(url, method, cookie, timeout, data, ssl, headers, verbose, silent, s
                         delay,
                 )
     try:
-        text ,status_code, rheaders = response[0], response[1], str(response[2])
+        text ,status_code, rheaders = response[0], response[1], response[2]
     except TypeError:
         pass
     if not int(status_code) >= 400:
-        if 'nefcore' and 'crlfsuite' in rheaders:
+        if 'nefcore' in rheaders or 'crlfsuite' in rheaders:
             vuln_urls.add(url)
         if "svg/onload=alert(innerHTML()" in text:
             vuln_urls.add(url)
