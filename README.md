@@ -11,6 +11,8 @@
 
 <hr>
 
+**The project is no more managed by developers.**
+
 CRLFsuite is a powerful tool for `CRLF injection` detection and exploitation. Want to know how it works. <a href="https://github.com/Nefcore/CRLFsuite/wiki/How-CRLFsuite-works%3F">Here's how</a>
 ## Installation
 
